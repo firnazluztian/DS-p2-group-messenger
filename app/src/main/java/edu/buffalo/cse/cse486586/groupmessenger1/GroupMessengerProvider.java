@@ -2,9 +2,16 @@ package edu.buffalo.cse.cse486586.groupmessenger1;
 
 import android.content.ContentProvider;
 import android.content.ContentValues;
+import android.content.Context;
 import android.database.Cursor;
+import android.database.MatrixCursor;
 import android.net.Uri;
 import android.util.Log;
+
+import java.io.FileOutputStream;
+import java.util.Scanner;
+
+import static android.content.ContentValues.TAG;
 
 /**
  * GroupMessengerProvider is a key-value table. Once again, please note that we do not implement
@@ -50,6 +57,20 @@ public class GroupMessengerProvider extends ContentProvider {
          * internal storage option that we used in PA1. If you want to use that option, please
          * take a look at the code for PA1.
          */
+
+        // Internal Storage implementation from P1
+        String key = values.getAsString("key");
+        String value = values.getAsString("value");
+        FileOutputStream outputStream;
+
+        try {
+            outputStream = getContext().openFileOutput(key, Context.MODE_PRIVATE);
+            outputStream.write(value.getBytes());
+            outputStream.close();
+        } catch (Exception e) {
+            Log.e(TAG, "File write failed");
+        }
+
         Log.v("insert", values.toString());
         return uri;
     }
@@ -80,6 +101,7 @@ public class GroupMessengerProvider extends ContentProvider {
          * recommend building a MatrixCursor described at:
          * http://developer.android.com/reference/android/database/MatrixCursor.html
          */
+
         Log.v("query", selection);
         return null;
     }
