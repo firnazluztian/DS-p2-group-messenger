@@ -8,7 +8,12 @@ import android.database.MatrixCursor;
 import android.net.Uri;
 import android.util.Log;
 
+import java.io.BufferedReader;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.Scanner;
 
 import static android.content.ContentValues.TAG;
@@ -102,7 +107,24 @@ public class GroupMessengerProvider extends ContentProvider {
          * http://developer.android.com/reference/android/database/MatrixCursor.html
          */
 
-        Log.v("query", selection);
-        return null;
+        // MatrixCursor Implementation
+        MatrixCursor mc;
+        Scanner sc;
+        String field[] = {"key","value"};
+        String select = selection;
+
+        mc = new MatrixCursor(field);
+        try {
+            sc = new Scanner(getContext().openFileInput(select));
+            String input = sc.nextLine();
+            String content[] = {select,input};
+            mc.addRow(content);
+            sc.close();
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+            Log.v("query", selection);
+        }
+
+        return mc;
     }
 }
