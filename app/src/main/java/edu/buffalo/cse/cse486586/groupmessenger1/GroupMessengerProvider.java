@@ -8,12 +8,8 @@ import android.database.MatrixCursor;
 import android.net.Uri;
 import android.util.Log;
 
-import java.io.BufferedReader;
-import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
-import java.io.IOException;
-import java.io.InputStreamReader;
 import java.util.Scanner;
 
 import static android.content.ContentValues.TAG;
@@ -22,17 +18,17 @@ import static android.content.ContentValues.TAG;
  * GroupMessengerProvider is a key-value table. Once again, please note that we do not implement
  * full support for SQL as a usual ContentProvider does. We re-purpose ContentProvider's interface
  * to use it as a key-value table.
- * 
+ *
  * Please read:
- * 
+ *
  * http://developer.android.com/guide/topics/providers/content-providers.html
  * http://developer.android.com/reference/android/content/ContentProvider.html
- * 
+ *
  * before you start to get yourself familiarized with ContentProvider.
- * 
+ *
  * There are two methods you need to implement---insert() and query(). Others are optional and
  * will not be tested.
- * 
+ *
  * @author stevko
  *
  */
@@ -56,7 +52,7 @@ public class GroupMessengerProvider extends ContentProvider {
          * TODO: You need to implement this method. Note that values will have two columns (a key
          * column and a value column) and one row that contains the actual (key, value) pair to be
          * inserted.
-         * 
+         *
          * For actual storage, you can use any option. If you know how to use SQL, then you can use
          * SQLite. But this is not a requirement. You can use other storage options, such as the
          * internal storage option that we used in PA1. If you want to use that option, please
@@ -123,6 +119,13 @@ public class GroupMessengerProvider extends ContentProvider {
         } catch (FileNotFoundException e) {
             e.printStackTrace();
             Log.v("query", selection);
+            Log.e(TAG, "query: FileNotFoundException");
+        } catch (IllegalArgumentException e) {
+            e.printStackTrace();
+            Log.e(TAG, "query: IllegalArgumentException");
+        } catch (NullPointerException e) {
+            e.printStackTrace();
+            Log.e(TAG, "query: NullPointerException");
         }
 
         return mc;

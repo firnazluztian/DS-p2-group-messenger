@@ -1,0 +1,158 @@
+Starting on emulator-5554
+Starting on emulator-5556
+Starting on emulator-5558
+Starting on emulator-5560
+Starting on emulator-5562
+Testing the content provider
+Inserting (emulator-5554) vk722xMqvjBqnusAjnExi2cOCUKdDl3K N9KLzS1YBMR4sFba36kKXNAoXvamJgzT
+Inserting (emulator-5554) KPeorwF3qzubZSJnawGeZj1zDKmQar4r 6Yz6hp9yRMaBBM3Y7hVvX86NFw6SefFL
+Inserting (emulator-5554) HLRmVrjYGib4N7sTjwtV3UlHgFixU7ro XaAWbDhN38FrzA6FhVRWgVOlEJBzAvei
+Inserting (emulator-5554) 7Zq2krXVhl3KAixaQnbIIxxS3FO5TjsJ mqacl4I9vHCuitjZnLYBa7q5R7Vqupyt
+Inserting (emulator-5554) 2ABR2nCQ5VRKLrsX8PSoaJ6DKA09UF4z S2IuGNbgFjfoaE0m6DN3xEm9wUVsbS2q
+Querying (emulator-5554) vk722xMqvjBqnusAjnExi2cOCUKdDl3K
+Querying (emulator-5554) KPeorwF3qzubZSJnawGeZj1zDKmQar4r
+Querying (emulator-5554) HLRmVrjYGib4N7sTjwtV3UlHgFixU7ro
+Querying (emulator-5554) 7Zq2krXVhl3KAixaQnbIIxxS3FO5TjsJ
+Querying (emulator-5554) 2ABR2nCQ5VRKLrsX8PSoaJ6DKA09UF4z
+Content provider score: 2
+Entering messages
+Waiting for 5 seconds to stabilize...
+Retrieving messages
+Querying (emulator-5554) 0
+Querying (emulator-5556) 0
+Querying (emulator-5558) 0
+Querying (emulator-5560) 0
+Querying (emulator-5562) 0
+Querying (emulator-5562) 1
+Querying (emulator-5560) 1
+Querying (emulator-5556) 1
+Querying (emulator-5558) 1
+Querying (emulator-5554) 1
+Querying (emulator-5562) 2
+Querying (emulator-5556) 2
+Querying (emulator-5560) 2
+Querying (emulator-5558) 2
+Querying (emulator-5554) 2
+Querying (emulator-5562) 3
+Querying (emulator-5556) 3
+Querying (emulator-5560) 3
+Querying (emulator-5558) 3
+Querying (emulator-5554) 3
+Querying (emulator-5562) 4
+Querying (emulator-5556) 4
+Querying (emulator-5560) 4
+Querying (emulator-5558) 4
+Querying (emulator-5562) 5
+Querying (emulator-5554) 4
+Querying (emulator-5556) 5
+Querying (emulator-5560) 5
+Querying (emulator-5558) 5
+Querying (emulator-5562) 6
+Querying (emulator-5554) 5
+Querying (emulator-5556) 6
+Querying (emulator-5560) 6
+Querying (emulator-5558) 6
+Querying (emulator-5562) 7
+Querying (emulator-5556) 7
+Querying (emulator-5554) 6
+Querying (emulator-5560) 7
+Querying (emulator-5558) 7
+Querying (emulator-5562) 8
+Querying (emulator-5556) 8
+Querying (emulator-5554) 7
+Querying (emulator-5560) 8
+Querying (emulator-5558) 8
+Querying (emulator-5562) 9
+Querying (emulator-5556) 9
+Querying (emulator-5554) 8
+Querying (emulator-5560) 9
+Querying (emulator-5558) 9
+Querying (emulator-5562) 10
+Querying (emulator-5556) 10
+Querying (emulator-5554) 9
+Querying (emulator-5560) 10
+Querying (emulator-5558) 10
+Querying (emulator-5562) 11
+Querying (emulator-5556) 11
+Querying (emulator-5554) 10
+Querying (emulator-5560) 11
+Querying (emulator-5558) 11
+Querying (emulator-5562) 12
+Querying (emulator-5556) 12
+Querying (emulator-5554) 11
+Querying (emulator-5558) 12
+Querying (emulator-5560) 12
+Querying (emulator-5562) 13
+Querying (emulator-5556) 13
+Querying (emulator-5554) 12
+Querying (emulator-5558) 13
+Querying (emulator-5562) 14
+Querying (emulator-5560) 13
+Querying (emulator-5556) 14
+Querying (emulator-5554) 13
+Querying (emulator-5558) 14
+Querying (emulator-5562) 15
+Querying (emulator-5560) 14
+Querying (emulator-5556) 15
+Querying (emulator-5554) 14
+Querying (emulator-5558) 15
+Querying (emulator-5562) 16
+Querying (emulator-5560) 15
+Querying (emulator-5556) 16
+Querying (emulator-5554) 15
+Querying (emulator-5558) 16
+Querying (emulator-5562) 17
+Querying (emulator-5560) 16
+Querying (emulator-5556) 17
+Querying (emulator-5562) 18
+Querying (emulator-5558) 17
+Querying (emulator-5554) 16
+Querying (emulator-5560) 17
+Querying (emulator-5556) 18
+Querying (emulator-5554) 17
+Querying (emulator-5562) 19
+Querying (emulator-5558) 18
+Querying (emulator-5560) 18
+Querying (emulator-5556) 19
+Querying (emulator-5554) 18
+Querying (emulator-5558) 19
+Querying (emulator-5562) 20
+Querying (emulator-5560) 19
+Querying (emulator-5556) 20
+Querying (emulator-5554) 19
+Querying (emulator-5558) 20
+Querying (emulator-5562) 21
+Querying (emulator-5560) 20
+Querying (emulator-5556) 21
+Querying (emulator-5554) 20
+Querying (emulator-5558) 21
+Querying (emulator-5562) 22
+Querying (emulator-5556) 22
+Querying (emulator-5560) 21
+Querying (emulator-5554) 21
+Querying (emulator-5558) 22
+Querying (emulator-5562) 23
+Querying (emulator-5556) 23
+Querying (emulator-5560) 22
+Querying (emulator-5554) 22
+Querying (emulator-5558) 23
+Querying (emulator-5562) 24
+Querying (emulator-5556) 24
+Querying (emulator-5560) 23
+Querying (emulator-5554) 23
+Querying (emulator-5558) 24
+Querying (emulator-5560) 24
+Querying (emulator-5554) 24
+Verifying stored messages
+Verifying emulator-5554
+Verified emulator-5554
+Verifying emulator-5556
+Verified emulator-5556
+Verifying emulator-5558
+Verified emulator-5558
+Verifying emulator-5560
+Verified emulator-5560
+Verifying emulator-5562
+Verified emulator-5562
+Messaging score: 3
+Total score: 5

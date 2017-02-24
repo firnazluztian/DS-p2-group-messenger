@@ -7,6 +7,12 @@
     <uses-sdk
         android:minSdkVersion="19"
         android:targetSdkVersion="19" />
+    <!--
+    needed permission to access internet and phone state
+    https://developer.android.com/guide/topics/providers/content-provider-creating.html
+    -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
 
     <application
         android:allowBackup="true"
